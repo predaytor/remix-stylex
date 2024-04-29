@@ -1,4 +1,6 @@
-@custom-media --mx-1 (width <= 1024px);
+@import './reset.css' layer(core);
+@import './fonts.css' layer(core);
 
+@custom-media --mx-1 (width <= 1024px);
 
 @stylex-dev;
