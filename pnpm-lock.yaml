@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^5.0.6
     version: 5.2.10(lightningcss@1.24.1)
   vite-plugin-stylex-dev:
-    specifier: ^0.6.2
-    version: 0.6.2
+    specifier: ^0.6.3
+    version: 0.6.3
   vite-tsconfig-paths:
     specifier: ^4.2.1
     version: 4.3.2(typescript@5.4.5)(vite@5.2.10)
@@ -2836,6 +2836,8 @@ packages:
       lightningcss-linux-x64-musl: 1.24.1
       lightningcss-win32-x64-msvc: 1.24.1
     dev: true
+    bundledDependencies:
+      - napi-wasm
 
   /lilconfig@3.1.1:
     resolution: {integrity: sha512-O18pf7nyvHTckunPWCV1XUNXU1piu01y2b7ATJ0ppkUkk8ocqVWBrYjJBCwHDjD/ZWcfyrA0P4gKhzWGi5EINQ==}
@@ -4632,8 +4634,8 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-stylex-dev@0.6.2:
-    resolution: {integrity: sha512-Yp0l4urobVP0Zv+XqTggD+4vnxWXaIEFrkmKkeKB3MOHeh56TMThVg1cS/OyMRLRro89DmHOJSzKBAPaC1/WIw==}
+  /vite-plugin-stylex-dev@0.6.3:
+    resolution: {integrity: sha512-IH6d+uqz9OSFZuJEd5vvMeCTG7HpsrxfuC03bA6brNfiQinvWJhf5OL0EfsrlIOY4PYUJc4HcmpjcT1gadbUKw==}
     dependencies:
       '@babel/core': 7.24.4
       '@rollup/pluginutils': 5.1.0
